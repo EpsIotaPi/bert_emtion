@@ -252,3 +252,33 @@
 2020-10-27 16:03:56,032 - ./log/log.txt - INFO - drop_rate: 0.8
 2020-10-27 16:03:56,032 - ./log/log.txt - INFO - HyperParams is over
 2020-10-27 16:03:58,103 - ./log/log.txt - INFO - -------------------------------------------------
+2020-10-30 07:44:17,733 - ./log/log.txt - INFO - the flowing is HyperParams:
+2020-10-30 07:44:17,734 - ./log/log.txt - INFO - epoch: 5
+2020-10-30 07:44:17,734 - ./log/log.txt - INFO - batch: 5
+2020-10-30 07:44:17,734 - ./log/log.txt - INFO - num_layers: 3
+2020-10-30 07:44:17,734 - ./log/log.txt - INFO - drop_rate: 0.8
+2020-10-30 07:44:17,734 - ./log/log.txt - INFO - HyperParams is over
+2020-10-30 07:44:47,448 - ./log/log.txt - INFO - the flowing is HyperParams:
+2020-10-30 07:44:47,448 - ./log/log.txt - INFO - epoch: 5
+2020-10-30 07:44:47,448 - ./log/log.txt - INFO - batch: 5
+2020-10-30 07:44:47,448 - ./log/log.txt - INFO - num_layers: 3
+2020-10-30 07:44:47,448 - ./log/log.txt - INFO - drop_rate: 0.8
+2020-10-30 07:44:47,448 - ./log/log.txt - INFO - HyperParams is over
+2020-10-30 07:44:49,140 - ./log/log.txt - INFO - -------------------------------------------------
+2020-10-30 07:44:50,190 - ./log/log.txt - INFO - begin to train the model: RoBertaModel_gru
+2020-10-30 07:46:03,279 - ./log/log.txt - INFO - the flowing is HyperParams:
+2020-10-30 07:46:03,279 - ./log/log.txt - INFO - epoch: 5
+2020-10-30 07:46:03,279 - ./log/log.txt - INFO - batch: 5
+2020-10-30 07:46:03,279 - ./log/log.txt - INFO - num_layers: 3
+2020-10-30 07:46:03,279 - ./log/log.txt - INFO - drop_rate: 0.8
+2020-10-30 07:46:03,279 - ./log/log.txt - INFO - HyperParams is over
+2020-10-30 07:46:04,883 - ./log/log.txt - INFO - -------------------------------------------------
+2020-10-30 07:46:05,942 - ./log/log.txt - INFO - begin to train the model: RoBertaModel_gru
+2020-10-30 07:46:53,604 - ./log/log.txt - INFO - the flowing is HyperParams:
+2020-10-30 07:46:53,605 - ./log/log.txt - INFO - epoch: 5
+2020-10-30 07:46:53,605 - ./log/log.txt - INFO - batch: 5
+2020-10-30 07:46:53,605 - ./log/log.txt - INFO - num_layers: 3
+2020-10-30 07:46:53,605 - ./log/log.txt - INFO - drop_rate: 0.8
+2020-10-30 07:46:53,605 - ./log/log.txt - INFO - HyperParams is over
+2020-10-30 07:46:55,287 - ./log/log.txt - INFO - -------------------------------------------------
+2020-10-30 07:46:56,417 - ./log/log.txt - INFO - begin to train the model: RoBertaModel_gru

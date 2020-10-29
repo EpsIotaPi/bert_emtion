@@ -1,6 +1,6 @@
 from HyperParams import HyperParams
 from models import BertWwmModel, RoBertaModel
-from trains import trains, device
+from trains import train_evaluate, device
 from dataset import logger
 
 params = HyperParams()
@@ -18,8 +18,8 @@ logger.info("HyperParams is over")
 # trains(model=BertWwmModel(params, 'lstm', False).to(device))
 # trains(model=RoBertaModel(params, 'lstm', False).to(device))
 # trains(model=BertWwmModel(params, 'gru', False).to(device))
-trains(model=RoBertaModel(params, 'gru', False).to(device))
-trains(model=BertWwmModel(params, 'lstm', True).to(device))
-trains(model=RoBertaModel(params, 'lstm', True).to(device))
-trains(model=BertWwmModel(params, 'gru', True).to(device))
-trains(model=RoBertaModel(params, 'gru', True).to(device))
+train_evaluate(model=RoBertaModel(params, 'gru', False).to(device))
+train_evaluate(model=BertWwmModel(params, 'lstm', True).to(device))
+train_evaluate(model=RoBertaModel(params, 'lstm', True).to(device))
+train_evaluate(model=BertWwmModel(params, 'gru', True).to(device))
+train_evaluate(model=RoBertaModel(params, 'gru', True).to(device))
