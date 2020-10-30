@@ -100,7 +100,7 @@ def train_evaluate(model):
             {"name": "dropout_rate", "type": "range", "bounds": [0.0, 0.9]},
             {"name": "rnn_layers", "type": "range", "bounds": [1, 10]}
         ],
-        evaluation_function=evaluate(model, test_loader),
+        evaluation_function=lambda pamaras: evaluate(model, test_loader),
         objective_name='accuracy',
         total_trials=15
     )
