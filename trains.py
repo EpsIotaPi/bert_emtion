@@ -108,13 +108,13 @@ def evaluateModel(parameterization):
 def optmizeModel():
     best_parameters, values, experiment, net = optimize(
         parameters=[
-            {"name": "learn_rate", "type": "range", "bounds": [8e-6, 1e-3], "log_scale": True},
-            {"name": "dropout_rate", "type": "range", "bounds": [0.5, 0.9]},
-            {"name": "rnn_layers", "type": "range", "bounds": [1, 10]}
+            {"name": "learn_rate", "type": "range", "bounds": [1e-5, 8e-6], "log_scale": True},
+            {"name": "dropout_rate", "type": "range", "bounds": [0.1, 0.5]},
+            {"name": "rnn_layers", "type": "range", "bounds": [1, 3]}
         ],
         evaluation_function=evaluateModel,
         objective_name='accuracy',
-        total_trials=15
+        total_trials=5
     )
     logger.info(f"the best params is: ")
     logger.info(f"learn_rate = {best_parameters['learn_rate']}")

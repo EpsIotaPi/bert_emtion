@@ -19,9 +19,9 @@ class HyperParams:
     patience = 10
     decay_rate = 0.90
     grad_clip = 3
-    learn_rate = 0.00016801566335359662
+    learn_rate = 1e-5
     min_learn_rate = 8e-6
-    dropout_rate = 0.5548877477645874
+    dropout_rate = 0.2
     '''-------------------调参-------------------'''
 
     bert_path = "./models/chinese_wwm_pytorch"
@@ -31,7 +31,7 @@ class HyperParams:
     roberta_config_path = "./models/chinese_roberta_wwm_ext_pytorch/bert_config.json"
 
     data_path = "./data/replacement/train.csv"
-    log_file = "./log/log.txt"
+    log_file = "log/log.txt"
 
 
 

@@ -1,5 +1,0 @@
-2020-10-23 07:31:03,691 - ./log/log_bert.txt - INFO - RoBertaModel
-2020-10-23 07:31:38,663 - ./log/log_bert.txt - INFO - BertWwmModel
-2020-10-23 07:36:52,575 - ./log/log_bert.txt - INFO - RoBertaModel
-2020-10-23 07:38:13,596 - ./log/log_bert.txt - INFO - RoBertaModel
-2020-10-23 07:40:57,440 - ./log/log_bert.txt - INFO - RoBertaModel
