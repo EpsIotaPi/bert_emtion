@@ -64,7 +64,7 @@ def evaluate(model, data_loader):
     wa = weighted_accuracy(y_trues, y_predicts)
     ua = unweighted_accuracy(y_trues, y_predicts)
     logger.info(f"valid    loss: {np.mean(losses):.3f} \t wa: {wa:.3f} \t ua: {ua:.3f} \t")
-    classification_report(y_trues, y_predicts)
+    classification_report(y_trues, y_predicts, zero_division=1)
     model.train()
     return wa
 
@@ -109,14 +109,17 @@ def optmizeModel():
     best_parameters, values, experiment, net = optimize(
         parameters=[
             {"name": "learn_rate", "type": "range", "bounds": [8e-6, 1e-3], "log_scale": True},
-            {"name": "dropout_rate", "type": "range", "bounds": [0.0, 0.9]},
+            {"name": "dropout_rate", "type": "range", "bounds": [0.5, 0.9]},
             {"name": "rnn_layers", "type": "range", "bounds": [1, 10]}
         ],
         evaluation_function=evaluateModel,
         objective_name='accuracy',
         total_trials=15
     )
-    print(best_parameters)
+    logger.info(f"the best params is: ")
+    logger.info(f"learn_rate = {best_parameters['learn_rate']}")
+    logger.info(f"dropout_rate = {best_parameters['dropout_rate']}")
+    logger.info(f"rnn_layers = {best_parameters['rnn_layers']}")
 
 def changeModel(new_model):
     global model
