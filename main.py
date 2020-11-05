@@ -1,6 +1,6 @@
 from HyperParams import HyperParams
 from models import BertWwmModel, RoBertaModel
-from trains import optmizeModel, changeModel, device
+from trains import optmizeModel, changeModel, evaluateModel, device
 
 from dataset import logger
 
@@ -17,4 +17,5 @@ logger.info("HyperParams is over")
 
 
 changeModel(new_model=BertWwmModel(params).to(device))
-optmizeModel()
+evaluateModel(params)
+# optmizeModel()

@@ -24,9 +24,9 @@ params = HyperParams()
 model = BertWwmModel(params, "", False).to(device)
 
 def trains(model, newParams, train_loader, optimizer, loss_func):
-    params.learn_rate = newParams["learn_rate"]
-    params.dropout_rate = newParams["dropout_rate"]
-    params.rnn_layers = newParams["rnn_layers"]
+    # params.learn_rate = newParams["learn_rate"]
+    # params.dropout_rate = newParams["dropout_rate"]
+    # params.rnn_layers = newParams["rnn_layers"]
     for epoch in range(params.epochs):
         losses, y_trues, y_predicts = [], [], []
         for sample_text, sample_label in tqdm(train_loader):
