@@ -108,7 +108,7 @@ def evaluateModel(parameterization):
 def optmizeModel():
     best_parameters, values, experiment, net = optimize(
         parameters=[
-            {"name": "learn_rate", "type": "range", "bounds": [1e-5, 8e-6], "log_scale": True},
+            {"name": "learn_rate", "type": "range", "bounds": [1e-5, 8e-5], "log_scale": True},
             {"name": "dropout_rate", "type": "range", "bounds": [0.1, 0.5]},
             {"name": "rnn_layers", "type": "range", "bounds": [1, 3]}
         ],
