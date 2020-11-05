@@ -1,6 +1,7 @@
 from HyperParams import HyperParams
 from models import BertWwmModel, RoBertaModel
-from trains import train_evaluate, device
+from trains import optmizeModel, changeModel, device
+
 from dataset import logger
 
 params = HyperParams()
@@ -13,13 +14,34 @@ logger.info(f"drop_rate: {params.dropout_rate}")
 logger.info("HyperParams is over")
 
 
-# trains(model=BertWwmModel(params).to(device))
-# trains(model=RoBertaModel(params).to(device))
-# trains(model=BertWwmModel(params, 'lstm', False).to(device))
-# trains(model=RoBertaModel(params, 'lstm', False).to(device))
-# trains(model=BertWwmModel(params, 'gru', False).to(device))
-train_evaluate(model=RoBertaModel(params, 'gru', False).to(device))
-train_evaluate(model=BertWwmModel(params, 'lstm', True).to(device))
-train_evaluate(model=RoBertaModel(params, 'lstm', True).to(device))
-train_evaluate(model=BertWwmModel(params, 'gru', True).to(device))
-train_evaluate(model=RoBertaModel(params, 'gru', True).to(device))
+
+
+changeModel(new_model=BertWwmModel(params).to(device))
+optmizeModel()
+
+#changeModel(new_model=RoBertaModel(params).to(device))
+#optmizeModel()
+
+#changeModel(new_model=BertWwmModel(params, 'lstm', False).to(device))
+#optmizeModel()
+
+#changeModel(new_model=RoBertaModel(params, 'lstm', False).to(device))
+#optmizeModel()
+#
+# changeModel(new_model=BertWwmModel(params, 'gru', False).to(device))
+# optmizeModel()
+#
+# changeModel(new_model=RoBertaModel(params, 'gru', False).to(device))
+# optmizeModel()
+#
+# changeModel(new_model=BertWwmModel(params, 'lstm', True).to(device))
+# optmizeModel()
+#
+# changeModel(new_model=RoBertaModel(params, 'lstm', True).to(device))
+# optmizeModel()
+#
+# changeModel(new_model=BertWwmModel(params, 'gru', True).to(device))
+# optmizeModel()
+#
+# changeModel(new_model=RoBertaModel(params, 'gru', True).to(device))
+# optmizeModel()

@@ -1,284 +1,235 @@
-2020-10-23 11:15:26,424 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
-2020-10-23 11:15:55,572 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-
-2020-10-23 11:22:25,106 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-23 11:22:25,106 - ./log/log.txt - INFO - epoch: 5
-2020-10-23 11:22:25,106 - ./log/log.txt - INFO - batch: 5
-2020-10-23 11:22:25,106 - ./log/log.txt - INFO - num_layers: 3
-2020-10-23 11:22:25,106 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-23 11:22:25,106 - ./log/log.txt - INFO - HyperParams is over
-2020-10-23 11:22:27,286 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
-2020-10-23 11:25:11,014 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-23 11:25:11,014 - ./log/log.txt - INFO - epoch: 5
-2020-10-23 11:25:11,014 - ./log/log.txt - INFO - batch: 5
-2020-10-23 11:25:11,014 - ./log/log.txt - INFO - num_layers: 3
-2020-10-23 11:25:11,014 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-23 11:25:11,014 - ./log/log.txt - INFO - HyperParams is over
-2020-10-23 11:25:12,500 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-23 11:25:13,063 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
-2020-10-23 11:56:05,734 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-23 11:56:05,734 - ./log/log.txt - INFO - epoch: 5
-2020-10-23 11:56:05,734 - ./log/log.txt - INFO - batch: 5
-2020-10-23 11:56:05,734 - ./log/log.txt - INFO - num_layers: 3
-2020-10-23 11:56:05,734 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-23 11:56:05,734 - ./log/log.txt - INFO - HyperParams is over
-2020-10-23 11:56:07,300 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-23 11:56:07,861 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
-2020-10-23 14:18:30,417 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-23 14:18:30,417 - ./log/log.txt - INFO - epoch: 5
-2020-10-23 14:18:30,417 - ./log/log.txt - INFO - batch: 5
-2020-10-23 14:18:30,417 - ./log/log.txt - INFO - num_layers: 3
-2020-10-23 14:18:30,417 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-23 14:18:30,417 - ./log/log.txt - INFO - HyperParams is over
-2020-10-23 14:18:32,493 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-23 14:18:33,236 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-lstm
-2020-10-23 14:21:38,150 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-23 14:21:38,151 - ./log/log.txt - INFO - epoch: 5
-2020-10-23 14:21:38,151 - ./log/log.txt - INFO - batch: 5
-2020-10-23 14:21:38,151 - ./log/log.txt - INFO - num_layers: 3
-2020-10-23 14:21:38,151 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-23 14:21:38,151 - ./log/log.txt - INFO - HyperParams is over
-2020-10-23 14:21:39,950 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-23 14:21:40,550 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-lstm
-2020-10-23 14:27:24,814 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-23 14:27:24,814 - ./log/log.txt - INFO - epoch: 5
-2020-10-23 14:27:24,814 - ./log/log.txt - INFO - batch: 5
-2020-10-23 14:27:24,814 - ./log/log.txt - INFO - num_layers: 3
-2020-10-23 14:27:24,814 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-23 14:27:24,814 - ./log/log.txt - INFO - HyperParams is over
-2020-10-23 14:27:28,312 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-23 14:27:29,066 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-lstm
-2020-10-23 16:02:28,995 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-23 16:02:28,996 - ./log/log.txt - INFO - epoch: 5
-2020-10-23 16:02:28,996 - ./log/log.txt - INFO - batch: 5
-2020-10-23 16:02:28,996 - ./log/log.txt - INFO - num_layers: 3
-2020-10-23 16:02:28,996 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-23 16:02:28,996 - ./log/log.txt - INFO - HyperParams is over
-2020-10-23 16:02:30,909 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-23 16:02:31,547 - ./log/log.txt - INFO - begin to train the model: RoBertaModel_bi-lstm
-2020-10-23 16:02:56,526 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-23 16:02:56,527 - ./log/log.txt - INFO - epoch: 5
-2020-10-23 16:02:56,527 - ./log/log.txt - INFO - batch: 5
-2020-10-23 16:02:56,527 - ./log/log.txt - INFO - num_layers: 3
-2020-10-23 16:02:56,528 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-23 16:02:56,528 - ./log/log.txt - INFO - HyperParams is over
-2020-10-23 16:02:59,180 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-23 16:02:59,889 - ./log/log.txt - INFO - begin to train the model: RoBertaModel_lstm
-2020-10-23 16:04:24,125 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-23 16:04:24,125 - ./log/log.txt - INFO - epoch: 5
-2020-10-23 16:04:24,125 - ./log/log.txt - INFO - batch: 5
-2020-10-23 16:04:24,125 - ./log/log.txt - INFO - num_layers: 3
-2020-10-23 16:04:24,125 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-23 16:04:24,125 - ./log/log.txt - INFO - HyperParams is over
-2020-10-23 16:04:27,113 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-23 16:04:27,857 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-gru
-2020-10-23 16:04:50,834 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-23 16:04:50,835 - ./log/log.txt - INFO - epoch: 5
-2020-10-23 16:04:50,835 - ./log/log.txt - INFO - batch: 5
-2020-10-23 16:04:50,835 - ./log/log.txt - INFO - num_layers: 3
-2020-10-23 16:04:50,835 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-23 16:04:50,836 - ./log/log.txt - INFO - HyperParams is over
-2020-10-23 16:04:53,474 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-23 16:04:54,409 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_gru
-2020-10-23 16:05:30,760 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-23 16:05:30,761 - ./log/log.txt - INFO - epoch: 5
-2020-10-23 16:05:30,761 - ./log/log.txt - INFO - batch: 5
-2020-10-23 16:05:30,761 - ./log/log.txt - INFO - num_layers: 3
-2020-10-23 16:05:30,761 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-23 16:05:30,761 - ./log/log.txt - INFO - HyperParams is over
-2020-10-23 16:05:32,650 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-23 16:05:33,317 - ./log/log.txt - INFO - begin to train the model: RoBertaModel_bi-gru
-2020-10-23 16:05:44,916 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-23 16:05:44,917 - ./log/log.txt - INFO - epoch: 5
-2020-10-23 16:05:44,917 - ./log/log.txt - INFO - batch: 5
-2020-10-23 16:05:44,917 - ./log/log.txt - INFO - num_layers: 3
-2020-10-23 16:05:44,917 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-23 16:05:44,917 - ./log/log.txt - INFO - HyperParams is over
-2020-10-23 16:05:46,519 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-23 16:05:47,215 - ./log/log.txt - INFO - begin to train the model: RoBertaModel_gru
-2020-10-24 18:50:09,756 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-24 18:50:09,757 - ./log/log.txt - INFO - epoch: 5
-2020-10-24 18:50:09,757 - ./log/log.txt - INFO - batch: 5
-2020-10-24 18:50:09,757 - ./log/log.txt - INFO - num_layers: 3
-2020-10-24 18:50:09,757 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-24 18:50:09,757 - ./log/log.txt - INFO - HyperParams is over
-2020-10-24 18:50:11,566 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-24 18:50:12,189 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-lstm
-2020-10-24 18:56:27,184 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-24 18:56:27,185 - ./log/log.txt - INFO - epoch: 5
-2020-10-24 18:56:27,185 - ./log/log.txt - INFO - batch: 5
-2020-10-24 18:56:27,185 - ./log/log.txt - INFO - num_layers: 3
-2020-10-24 18:56:27,185 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-24 18:56:27,185 - ./log/log.txt - INFO - HyperParams is over
-2020-10-24 18:56:29,486 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-24 18:56:30,228 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_lstm
-2020-10-24 18:57:03,684 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-24 18:57:03,684 - ./log/log.txt - INFO - epoch: 5
-2020-10-24 18:57:03,685 - ./log/log.txt - INFO - batch: 5
-2020-10-24 18:57:03,685 - ./log/log.txt - INFO - num_layers: 3
-2020-10-24 18:57:03,685 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-24 18:57:03,685 - ./log/log.txt - INFO - HyperParams is over
-2020-10-24 18:57:05,176 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-24 18:57:05,785 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_gru
-2020-10-24 18:57:35,794 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-24 18:57:35,794 - ./log/log.txt - INFO - epoch: 5
-2020-10-24 18:57:35,794 - ./log/log.txt - INFO - batch: 5
-2020-10-24 18:57:35,794 - ./log/log.txt - INFO - num_layers: 3
-2020-10-24 18:57:35,794 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-24 18:57:35,794 - ./log/log.txt - INFO - HyperParams is over
-2020-10-24 18:57:37,461 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-24 18:57:38,045 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-gru
-2020-10-24 20:24:07,142 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-24 20:24:07,142 - ./log/log.txt - INFO - epoch: 5
-2020-10-24 20:24:07,143 - ./log/log.txt - INFO - batch: 5
-2020-10-24 20:24:07,144 - ./log/log.txt - INFO - num_layers: 3
-2020-10-24 20:24:07,144 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-24 20:24:07,144 - ./log/log.txt - INFO - HyperParams is over
-2020-10-24 20:24:09,518 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-24 20:24:10,253 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-gru
-2020-10-24 20:34:51,184 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-24 20:34:51,184 - ./log/log.txt - INFO - epoch: 5
-2020-10-24 20:34:51,184 - ./log/log.txt - INFO - batch: 5
-2020-10-24 20:34:51,184 - ./log/log.txt - INFO - num_layers: 3
-2020-10-24 20:34:51,184 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-24 20:34:51,184 - ./log/log.txt - INFO - HyperParams is over
-2020-10-24 20:34:53,235 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-24 20:34:53,947 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-gru
-2020-10-24 20:37:54,304 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-24 20:37:54,304 - ./log/log.txt - INFO - epoch: 5
-2020-10-24 20:37:54,304 - ./log/log.txt - INFO - batch: 5
-2020-10-24 20:37:54,304 - ./log/log.txt - INFO - num_layers: 3
-2020-10-24 20:37:54,304 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-24 20:37:54,304 - ./log/log.txt - INFO - HyperParams is over
-2020-10-24 20:37:56,151 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-24 20:37:56,772 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-gru
-2020-10-24 20:39:27,219 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-24 20:39:27,219 - ./log/log.txt - INFO - epoch: 5
-2020-10-24 20:39:27,219 - ./log/log.txt - INFO - batch: 5
-2020-10-24 20:39:27,219 - ./log/log.txt - INFO - num_layers: 3
-2020-10-24 20:39:27,219 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-24 20:39:27,219 - ./log/log.txt - INFO - HyperParams is over
-2020-10-24 20:39:28,947 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-24 20:39:29,560 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-gru
-2020-10-24 20:39:55,385 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-24 20:39:55,385 - ./log/log.txt - INFO - epoch: 5
-2020-10-24 20:39:55,385 - ./log/log.txt - INFO - batch: 5
-2020-10-24 20:39:55,385 - ./log/log.txt - INFO - num_layers: 3
-2020-10-24 20:39:55,385 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-24 20:39:55,385 - ./log/log.txt - INFO - HyperParams is over
-2020-10-24 20:39:57,129 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-24 20:39:57,743 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-gru
-2020-10-24 20:43:35,546 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-24 20:43:35,546 - ./log/log.txt - INFO - epoch: 5
-2020-10-24 20:43:35,546 - ./log/log.txt - INFO - batch: 5
-2020-10-24 20:43:35,546 - ./log/log.txt - INFO - num_layers: 3
-2020-10-24 20:43:35,546 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-24 20:43:35,546 - ./log/log.txt - INFO - HyperParams is over
-2020-10-24 20:43:37,390 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-24 20:43:37,913 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-gru
-2020-10-24 20:51:41,803 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-24 20:51:41,804 - ./log/log.txt - INFO - epoch: 5
-2020-10-24 20:51:41,804 - ./log/log.txt - INFO - batch: 5
-2020-10-24 20:51:41,805 - ./log/log.txt - INFO - num_layers: 3
-2020-10-24 20:51:41,805 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-24 20:51:41,805 - ./log/log.txt - INFO - HyperParams is over
-2020-10-24 20:51:43,834 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-24 20:51:44,421 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-gru
-2020-10-24 21:09:49,236 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-24 21:09:49,236 - ./log/log.txt - INFO - epoch: 5
-2020-10-24 21:09:49,236 - ./log/log.txt - INFO - batch: 5
-2020-10-24 21:09:49,236 - ./log/log.txt - INFO - num_layers: 3
-2020-10-24 21:09:49,236 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-24 21:09:49,236 - ./log/log.txt - INFO - HyperParams is over
-2020-10-24 21:09:51,542 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-24 21:09:52,086 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-lstm
-2020-10-25 15:15:09,380 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-25 15:15:09,381 - ./log/log.txt - INFO - epoch: 5
-2020-10-25 15:15:09,381 - ./log/log.txt - INFO - batch: 5
-2020-10-25 15:15:09,381 - ./log/log.txt - INFO - num_layers: 3
-2020-10-25 15:15:09,381 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-25 15:15:09,381 - ./log/log.txt - INFO - HyperParams is over
-2020-10-25 15:15:11,858 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-25 15:15:12,473 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-lstm
-2020-10-25 15:19:15,938 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-25 15:19:15,938 - ./log/log.txt - INFO - epoch: 5
-2020-10-25 15:19:15,938 - ./log/log.txt - INFO - batch: 5
-2020-10-25 15:19:15,938 - ./log/log.txt - INFO - num_layers: 3
-2020-10-25 15:19:15,938 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-25 15:19:15,938 - ./log/log.txt - INFO - HyperParams is over
-2020-10-25 15:19:17,843 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-25 15:19:18,392 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_bi-gru
-2020-10-25 16:22:39,895 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-25 16:22:39,896 - ./log/log.txt - INFO - epoch: 5
-2020-10-25 16:22:39,896 - ./log/log.txt - INFO - batch: 5
-2020-10-25 16:22:39,897 - ./log/log.txt - INFO - num_layers: 3
-2020-10-25 16:22:39,897 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-25 16:22:39,897 - ./log/log.txt - INFO - HyperParams is over
-2020-10-25 16:23:10,739 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-25 16:23:10,739 - ./log/log.txt - INFO - epoch: 5
-2020-10-25 16:23:10,740 - ./log/log.txt - INFO - batch: 5
-2020-10-25 16:23:10,740 - ./log/log.txt - INFO - num_layers: 3
-2020-10-25 16:23:10,740 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-25 16:23:10,740 - ./log/log.txt - INFO - HyperParams is over
-2020-10-25 16:23:12,407 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-25 16:23:12,936 - ./log/log.txt - INFO - begin to train the model: RoBertaModel_gru
-2020-10-26 16:19:42,416 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-26 16:19:42,416 - ./log/log.txt - INFO - epoch: 5
-2020-10-26 16:19:42,416 - ./log/log.txt - INFO - batch: 5
-2020-10-26 16:19:42,416 - ./log/log.txt - INFO - num_layers: 3
-2020-10-26 16:19:42,417 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-26 16:19:42,417 - ./log/log.txt - INFO - HyperParams is over
-2020-10-26 16:19:43,985 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-26 16:19:44,513 - ./log/log.txt - INFO - begin to train the model: RoBertaModel_lstm
-2020-10-26 16:21:30,128 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-26 16:21:30,129 - ./log/log.txt - INFO - epoch: 5
-2020-10-26 16:21:30,129 - ./log/log.txt - INFO - batch: 5
-2020-10-26 16:21:30,129 - ./log/log.txt - INFO - num_layers: 3
-2020-10-26 16:21:30,129 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-26 16:21:30,129 - ./log/log.txt - INFO - HyperParams is over
-2020-10-26 16:21:31,614 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-26 16:21:32,126 - ./log/log.txt - INFO - begin to train the model: RoBertaModel_lstm
-2020-10-26 16:26:53,469 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-26 16:26:53,469 - ./log/log.txt - INFO - epoch: 5
-2020-10-26 16:26:53,469 - ./log/log.txt - INFO - batch: 5
-2020-10-26 16:26:53,469 - ./log/log.txt - INFO - num_layers: 3
-2020-10-26 16:26:53,469 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-26 16:26:53,469 - ./log/log.txt - INFO - HyperParams is over
-2020-10-26 16:26:54,948 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-26 16:26:55,452 - ./log/log.txt - INFO - begin to train the model: RoBertaModel_gru
-2020-10-27 16:03:56,031 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-27 16:03:56,032 - ./log/log.txt - INFO - epoch: 5
-2020-10-27 16:03:56,032 - ./log/log.txt - INFO - batch: 5
-2020-10-27 16:03:56,032 - ./log/log.txt - INFO - num_layers: 3
-2020-10-27 16:03:56,032 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-27 16:03:56,032 - ./log/log.txt - INFO - HyperParams is over
-2020-10-27 16:03:58,103 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-30 07:44:17,733 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-30 07:44:17,734 - ./log/log.txt - INFO - epoch: 5
-2020-10-30 07:44:17,734 - ./log/log.txt - INFO - batch: 5
-2020-10-30 07:44:17,734 - ./log/log.txt - INFO - num_layers: 3
-2020-10-30 07:44:17,734 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-30 07:44:17,734 - ./log/log.txt - INFO - HyperParams is over
-2020-10-30 07:44:47,448 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-30 07:44:47,448 - ./log/log.txt - INFO - epoch: 5
-2020-10-30 07:44:47,448 - ./log/log.txt - INFO - batch: 5
-2020-10-30 07:44:47,448 - ./log/log.txt - INFO - num_layers: 3
-2020-10-30 07:44:47,448 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-30 07:44:47,448 - ./log/log.txt - INFO - HyperParams is over
-2020-10-30 07:44:49,140 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-30 07:44:50,190 - ./log/log.txt - INFO - begin to train the model: RoBertaModel_gru
-2020-10-30 07:46:03,279 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-30 07:46:03,279 - ./log/log.txt - INFO - epoch: 5
-2020-10-30 07:46:03,279 - ./log/log.txt - INFO - batch: 5
-2020-10-30 07:46:03,279 - ./log/log.txt - INFO - num_layers: 3
-2020-10-30 07:46:03,279 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-30 07:46:03,279 - ./log/log.txt - INFO - HyperParams is over
-2020-10-30 07:46:04,883 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-30 07:46:05,942 - ./log/log.txt - INFO - begin to train the model: RoBertaModel_gru
-2020-10-30 07:46:53,604 - ./log/log.txt - INFO - the flowing is HyperParams:
-2020-10-30 07:46:53,605 - ./log/log.txt - INFO - epoch: 5
-2020-10-30 07:46:53,605 - ./log/log.txt - INFO - batch: 5
-2020-10-30 07:46:53,605 - ./log/log.txt - INFO - num_layers: 3
-2020-10-30 07:46:53,605 - ./log/log.txt - INFO - drop_rate: 0.8
-2020-10-30 07:46:53,605 - ./log/log.txt - INFO - HyperParams is over
-2020-10-30 07:46:55,287 - ./log/log.txt - INFO - -------------------------------------------------
-2020-10-30 07:46:56,417 - ./log/log.txt - INFO - begin to train the model: RoBertaModel_gru
+2020-11-04 12:36:50,589 - ./log/log.txt - INFO - the flowing is HyperParams:
+2020-11-04 12:36:50,589 - ./log/log.txt - INFO - epoch: 5
+2020-11-04 12:36:50,589 - ./log/log.txt - INFO - batch: 5
+2020-11-04 12:36:50,589 - ./log/log.txt - INFO - num_layers: 3
+2020-11-04 12:36:50,589 - ./log/log.txt - INFO - drop_rate: 0.8
+2020-11-04 12:36:50,590 - ./log/log.txt - INFO - HyperParams is over
+2020-11-04 12:36:54,065 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 12:36:54,065 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-04 12:47:44,623 - ./log/log.txt - INFO - epoch: 0
+2020-11-04 12:47:44,624 - ./log/log.txt - INFO - train    loss: 0.640 	 wa: 0.738 	 ua: 0.614 	
+2020-11-04 12:58:35,815 - ./log/log.txt - INFO - epoch: 1
+2020-11-04 12:58:35,816 - ./log/log.txt - INFO - train    loss: 0.389 	 wa: 0.857 	 ua: 0.780 	
+2020-11-04 13:09:26,030 - ./log/log.txt - INFO - epoch: 2
+2020-11-04 13:09:26,030 - ./log/log.txt - INFO - train    loss: 0.255 	 wa: 0.908 	 ua: 0.852 	
+2020-11-04 13:20:16,030 - ./log/log.txt - INFO - epoch: 3
+2020-11-04 13:20:16,030 - ./log/log.txt - INFO - train    loss: 0.154 	 wa: 0.952 	 ua: 0.923 	
+2020-11-04 13:31:07,937 - ./log/log.txt - INFO - epoch: 4
+2020-11-04 13:31:07,937 - ./log/log.txt - INFO - train    loss: 0.102 	 wa: 0.969 	 ua: 0.953 	
+2020-11-04 13:31:07,938 - ./log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-04 13:31:07,938 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 13:32:26,565 - ./log/log.txt - INFO - valid    loss: 0.613 	 wa: 0.833 	 ua: 0.718 	
+2020-11-04 13:32:27,911 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 13:32:27,911 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-04 13:43:48,825 - ./log/log.txt - INFO - epoch: 0
+2020-11-04 13:43:48,826 - ./log/log.txt - INFO - train    loss: 0.196 	 wa: 0.941 	 ua: 0.910 	
+2020-11-04 13:55:07,953 - ./log/log.txt - INFO - epoch: 1
+2020-11-04 13:55:07,953 - ./log/log.txt - INFO - train    loss: 0.129 	 wa: 0.961 	 ua: 0.942 	
+2020-11-04 14:06:24,256 - ./log/log.txt - INFO - epoch: 2
+2020-11-04 14:06:24,256 - ./log/log.txt - INFO - train    loss: 0.095 	 wa: 0.972 	 ua: 0.958 	
+2020-11-04 14:17:46,799 - ./log/log.txt - INFO - epoch: 3
+2020-11-04 14:17:46,799 - ./log/log.txt - INFO - train    loss: 0.074 	 wa: 0.977 	 ua: 0.967 	
+2020-11-04 14:29:06,086 - ./log/log.txt - INFO - epoch: 4
+2020-11-04 14:29:06,086 - ./log/log.txt - INFO - train    loss: 0.062 	 wa: 0.981 	 ua: 0.974 	
+2020-11-04 14:29:06,087 - ./log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-04 14:29:06,087 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 14:30:24,806 - ./log/log.txt - INFO - valid    loss: 0.262 	 wa: 0.938 	 ua: 0.920 	
+2020-11-04 14:30:26,095 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 14:30:26,095 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-04 14:41:48,011 - ./log/log.txt - INFO - epoch: 0
+2020-11-04 14:41:48,011 - ./log/log.txt - INFO - train    loss: 1.035 	 wa: 0.465 	 ua: 0.337 	
+2020-11-04 14:53:08,900 - ./log/log.txt - INFO - epoch: 1
+2020-11-04 14:53:08,901 - ./log/log.txt - INFO - train    loss: 0.977 	 wa: 0.467 	 ua: 0.329 	
+2020-11-04 15:04:30,808 - ./log/log.txt - INFO - epoch: 2
+2020-11-04 15:04:30,808 - ./log/log.txt - INFO - train    loss: 0.971 	 wa: 0.472 	 ua: 0.332 	
+2020-11-04 15:15:50,815 - ./log/log.txt - INFO - epoch: 3
+2020-11-04 15:15:50,815 - ./log/log.txt - INFO - train    loss: 0.971 	 wa: 0.480 	 ua: 0.337 	
+2020-11-04 15:27:10,891 - ./log/log.txt - INFO - epoch: 4
+2020-11-04 15:27:10,892 - ./log/log.txt - INFO - train    loss: 0.967 	 wa: 0.477 	 ua: 0.332 	
+2020-11-04 15:27:10,892 - ./log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-04 15:27:10,892 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 15:28:29,270 - ./log/log.txt - INFO - valid    loss: 0.965 	 wa: 0.493 	 ua: 0.333 	
+2020-11-04 15:28:30,540 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 15:28:30,540 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-04 15:39:53,499 - ./log/log.txt - INFO - epoch: 0
+2020-11-04 15:39:53,499 - ./log/log.txt - INFO - train    loss: 0.962 	 wa: 0.481 	 ua: 0.330 	
+2020-11-04 15:51:17,075 - ./log/log.txt - INFO - epoch: 1
+2020-11-04 15:51:17,076 - ./log/log.txt - INFO - train    loss: 0.958 	 wa: 0.485 	 ua: 0.331 	
+2020-11-04 16:02:40,727 - ./log/log.txt - INFO - epoch: 2
+2020-11-04 16:02:40,728 - ./log/log.txt - INFO - train    loss: 0.958 	 wa: 0.490 	 ua: 0.332 	
+2020-11-04 16:14:07,518 - ./log/log.txt - INFO - epoch: 3
+2020-11-04 16:14:07,519 - ./log/log.txt - INFO - train    loss: 0.957 	 wa: 0.491 	 ua: 0.336 	
+2020-11-04 16:25:25,067 - ./log/log.txt - INFO - epoch: 4
+2020-11-04 16:25:25,068 - ./log/log.txt - INFO - train    loss: 0.955 	 wa: 0.487 	 ua: 0.329 	
+2020-11-04 16:25:25,068 - ./log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-04 16:25:25,068 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 16:26:40,865 - ./log/log.txt - INFO - valid    loss: 0.972 	 wa: 0.494 	 ua: 0.333 	
+2020-11-04 16:26:42,130 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 16:26:42,130 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-04 16:37:53,243 - ./log/log.txt - INFO - epoch: 0
+2020-11-04 16:37:53,244 - ./log/log.txt - INFO - train    loss: 0.966 	 wa: 0.479 	 ua: 0.333 	
+2020-11-04 16:49:14,691 - ./log/log.txt - INFO - epoch: 1
+2020-11-04 16:49:14,691 - ./log/log.txt - INFO - train    loss: 0.965 	 wa: 0.483 	 ua: 0.336 	
+2020-11-04 17:00:34,035 - ./log/log.txt - INFO - epoch: 2
+2020-11-04 17:00:34,035 - ./log/log.txt - INFO - train    loss: 0.967 	 wa: 0.476 	 ua: 0.330 	
+2020-11-04 17:11:53,626 - ./log/log.txt - INFO - epoch: 3
+2020-11-04 17:11:53,627 - ./log/log.txt - INFO - train    loss: 0.965 	 wa: 0.478 	 ua: 0.332 	
+2020-11-04 17:23:14,966 - ./log/log.txt - INFO - epoch: 4
+2020-11-04 17:23:14,967 - ./log/log.txt - INFO - train    loss: 0.964 	 wa: 0.486 	 ua: 0.338 	
+2020-11-04 17:23:14,967 - ./log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-04 17:23:14,967 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 17:24:35,178 - ./log/log.txt - INFO - valid    loss: 0.935 	 wa: 0.508 	 ua: 0.333 	
+2020-11-04 17:24:37,549 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 17:24:37,549 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-04 17:35:55,609 - ./log/log.txt - INFO - epoch: 0
+2020-11-04 17:35:55,609 - ./log/log.txt - INFO - train    loss: 0.956 	 wa: 0.483 	 ua: 0.332 	
+2020-11-04 17:47:15,243 - ./log/log.txt - INFO - epoch: 1
+2020-11-04 17:47:15,243 - ./log/log.txt - INFO - train    loss: 0.955 	 wa: 0.483 	 ua: 0.330 	
+2020-11-04 17:58:32,043 - ./log/log.txt - INFO - epoch: 2
+2020-11-04 17:58:32,043 - ./log/log.txt - INFO - train    loss: 0.954 	 wa: 0.491 	 ua: 0.333 	
+2020-11-04 18:09:50,889 - ./log/log.txt - INFO - epoch: 3
+2020-11-04 18:09:50,889 - ./log/log.txt - INFO - train    loss: 0.953 	 wa: 0.494 	 ua: 0.334 	
+2020-11-04 18:21:09,689 - ./log/log.txt - INFO - epoch: 4
+2020-11-04 18:21:09,689 - ./log/log.txt - INFO - train    loss: 0.952 	 wa: 0.495 	 ua: 0.335 	
+2020-11-04 18:21:09,690 - ./log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-04 18:21:09,690 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 18:22:35,201 - ./log/log.txt - INFO - valid    loss: 0.957 	 wa: 0.498 	 ua: 0.333 	
+2020-11-04 18:22:38,867 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 18:22:38,867 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-04 18:34:02,962 - ./log/log.txt - INFO - epoch: 0
+2020-11-04 18:34:02,963 - ./log/log.txt - INFO - train    loss: 0.956 	 wa: 0.489 	 ua: 0.333 	
+2020-11-04 18:45:26,227 - ./log/log.txt - INFO - epoch: 1
+2020-11-04 18:45:26,228 - ./log/log.txt - INFO - train    loss: 0.957 	 wa: 0.489 	 ua: 0.335 	
+2020-11-04 18:56:48,186 - ./log/log.txt - INFO - epoch: 2
+2020-11-04 18:56:48,186 - ./log/log.txt - INFO - train    loss: 0.955 	 wa: 0.491 	 ua: 0.336 	
+2020-11-04 19:08:12,798 - ./log/log.txt - INFO - epoch: 3
+2020-11-04 19:08:12,799 - ./log/log.txt - INFO - train    loss: 0.956 	 wa: 0.486 	 ua: 0.333 	
+2020-11-04 19:19:36,212 - ./log/log.txt - INFO - epoch: 4
+2020-11-04 19:19:36,213 - ./log/log.txt - INFO - train    loss: 0.957 	 wa: 0.485 	 ua: 0.333 	
+2020-11-04 19:19:36,213 - ./log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-04 19:19:36,213 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 19:20:57,578 - ./log/log.txt - INFO - valid    loss: 0.954 	 wa: 0.511 	 ua: 0.333 	
+2020-11-04 19:21:01,345 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 19:21:01,345 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-04 19:32:30,846 - ./log/log.txt - INFO - epoch: 0
+2020-11-04 19:32:30,846 - ./log/log.txt - INFO - train    loss: 0.965 	 wa: 0.477 	 ua: 0.331 	
+2020-11-04 19:43:58,922 - ./log/log.txt - INFO - epoch: 1
+2020-11-04 19:43:58,923 - ./log/log.txt - INFO - train    loss: 0.965 	 wa: 0.475 	 ua: 0.331 	
+2020-11-04 19:55:27,550 - ./log/log.txt - INFO - epoch: 2
+2020-11-04 19:55:27,551 - ./log/log.txt - INFO - train    loss: 0.963 	 wa: 0.482 	 ua: 0.337 	
+2020-11-04 20:06:54,174 - ./log/log.txt - INFO - epoch: 3
+2020-11-04 20:06:54,174 - ./log/log.txt - INFO - train    loss: 0.965 	 wa: 0.477 	 ua: 0.333 	
+2020-11-04 20:18:21,208 - ./log/log.txt - INFO - epoch: 4
+2020-11-04 20:18:21,209 - ./log/log.txt - INFO - train    loss: 0.962 	 wa: 0.480 	 ua: 0.334 	
+2020-11-04 20:18:21,209 - ./log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-04 20:18:21,210 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 20:19:41,406 - ./log/log.txt - INFO - valid    loss: 1.010 	 wa: 0.500 	 ua: 0.333 	
+2020-11-04 20:19:44,779 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 20:19:44,779 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-04 20:31:08,872 - ./log/log.txt - INFO - epoch: 0
+2020-11-04 20:31:08,873 - ./log/log.txt - INFO - train    loss: 0.962 	 wa: 0.486 	 ua: 0.334 	
+2020-11-04 20:42:34,721 - ./log/log.txt - INFO - epoch: 1
+2020-11-04 20:42:34,721 - ./log/log.txt - INFO - train    loss: 0.956 	 wa: 0.486 	 ua: 0.333 	
+2020-11-04 20:54:01,037 - ./log/log.txt - INFO - epoch: 2
+2020-11-04 20:54:01,037 - ./log/log.txt - INFO - train    loss: 0.957 	 wa: 0.485 	 ua: 0.332 	
+2020-11-04 21:05:22,896 - ./log/log.txt - INFO - epoch: 3
+2020-11-04 21:05:22,896 - ./log/log.txt - INFO - train    loss: 0.956 	 wa: 0.486 	 ua: 0.334 	
+2020-11-04 21:16:48,915 - ./log/log.txt - INFO - epoch: 4
+2020-11-04 21:16:48,915 - ./log/log.txt - INFO - train    loss: 0.958 	 wa: 0.488 	 ua: 0.334 	
+2020-11-04 21:16:48,915 - ./log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-04 21:16:48,916 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 21:18:10,160 - ./log/log.txt - INFO - valid    loss: 1.169 	 wa: 0.501 	 ua: 0.333 	
+2020-11-04 21:18:13,268 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 21:18:13,269 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-04 21:29:38,818 - ./log/log.txt - INFO - epoch: 0
+2020-11-04 21:29:38,819 - ./log/log.txt - INFO - train    loss: 0.957 	 wa: 0.490 	 ua: 0.332 	
+2020-11-04 21:41:05,119 - ./log/log.txt - INFO - epoch: 1
+2020-11-04 21:41:05,120 - ./log/log.txt - INFO - train    loss: 0.958 	 wa: 0.489 	 ua: 0.333 	
+2020-11-04 21:52:30,079 - ./log/log.txt - INFO - epoch: 2
+2020-11-04 21:52:30,079 - ./log/log.txt - INFO - train    loss: 0.958 	 wa: 0.489 	 ua: 0.333 	
+2020-11-04 22:03:55,894 - ./log/log.txt - INFO - epoch: 3
+2020-11-04 22:03:55,895 - ./log/log.txt - INFO - train    loss: 0.956 	 wa: 0.492 	 ua: 0.335 	
+2020-11-04 22:15:20,435 - ./log/log.txt - INFO - epoch: 4
+2020-11-04 22:15:20,436 - ./log/log.txt - INFO - train    loss: 0.956 	 wa: 0.489 	 ua: 0.332 	
+2020-11-04 22:15:20,436 - ./log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-04 22:15:20,436 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 22:16:39,689 - ./log/log.txt - INFO - valid    loss: 1.158 	 wa: 0.492 	 ua: 0.333 	
+2020-11-04 22:16:42,678 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 22:16:42,678 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-04 22:28:07,438 - ./log/log.txt - INFO - epoch: 0
+2020-11-04 22:28:07,438 - ./log/log.txt - INFO - train    loss: 0.957 	 wa: 0.493 	 ua: 0.336 	
+2020-11-04 22:39:32,945 - ./log/log.txt - INFO - epoch: 1
+2020-11-04 22:39:32,945 - ./log/log.txt - INFO - train    loss: 0.958 	 wa: 0.485 	 ua: 0.330 	
+2020-11-04 22:50:55,632 - ./log/log.txt - INFO - epoch: 2
+2020-11-04 22:50:55,633 - ./log/log.txt - INFO - train    loss: 0.958 	 wa: 0.486 	 ua: 0.333 	
+2020-11-04 23:02:19,373 - ./log/log.txt - INFO - epoch: 3
+2020-11-04 23:02:19,373 - ./log/log.txt - INFO - train    loss: 0.960 	 wa: 0.484 	 ua: 0.331 	
+2020-11-04 23:13:44,553 - ./log/log.txt - INFO - epoch: 4
+2020-11-04 23:13:44,553 - ./log/log.txt - INFO - train    loss: 0.957 	 wa: 0.490 	 ua: 0.335 	
+2020-11-04 23:13:44,554 - ./log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-04 23:13:44,554 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 23:15:06,895 - ./log/log.txt - INFO - valid    loss: 1.170 	 wa: 0.499 	 ua: 0.333 	
+2020-11-04 23:15:09,372 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-04 23:15:09,372 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-04 23:26:35,696 - ./log/log.txt - INFO - epoch: 0
+2020-11-04 23:26:35,696 - ./log/log.txt - INFO - train    loss: 0.958 	 wa: 0.484 	 ua: 0.334 	
+2020-11-04 23:38:03,363 - ./log/log.txt - INFO - epoch: 1
+2020-11-04 23:38:03,364 - ./log/log.txt - INFO - train    loss: 0.961 	 wa: 0.483 	 ua: 0.335 	
+2020-11-04 23:49:28,862 - ./log/log.txt - INFO - epoch: 2
+2020-11-04 23:49:28,862 - ./log/log.txt - INFO - train    loss: 0.961 	 wa: 0.482 	 ua: 0.333 	
+2020-11-05 00:00:54,131 - ./log/log.txt - INFO - epoch: 3
+2020-11-05 00:00:54,132 - ./log/log.txt - INFO - train    loss: 0.961 	 wa: 0.481 	 ua: 0.333 	
+2020-11-05 00:12:14,270 - ./log/log.txt - INFO - epoch: 4
+2020-11-05 00:12:14,270 - ./log/log.txt - INFO - train    loss: 0.960 	 wa: 0.481 	 ua: 0.332 	
+2020-11-05 00:12:14,271 - ./log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-05 00:12:14,271 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-05 00:13:35,932 - ./log/log.txt - INFO - valid    loss: 1.238 	 wa: 0.514 	 ua: 0.333 	
+2020-11-05 00:13:39,045 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-05 00:13:39,045 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-05 00:25:03,365 - ./log/log.txt - INFO - epoch: 0
+2020-11-05 00:25:03,365 - ./log/log.txt - INFO - train    loss: 0.957 	 wa: 0.495 	 ua: 0.336 	
+2020-11-05 00:36:27,279 - ./log/log.txt - INFO - epoch: 1
+2020-11-05 00:36:27,279 - ./log/log.txt - INFO - train    loss: 0.955 	 wa: 0.487 	 ua: 0.331 	
+2020-11-05 00:47:52,840 - ./log/log.txt - INFO - epoch: 2
+2020-11-05 00:47:52,841 - ./log/log.txt - INFO - train    loss: 0.956 	 wa: 0.489 	 ua: 0.334 	
+2020-11-05 00:59:20,433 - ./log/log.txt - INFO - epoch: 3
+2020-11-05 00:59:20,433 - ./log/log.txt - INFO - train    loss: 0.958 	 wa: 0.485 	 ua: 0.330 	
+2020-11-05 01:10:44,367 - ./log/log.txt - INFO - epoch: 4
+2020-11-05 01:10:44,367 - ./log/log.txt - INFO - train    loss: 0.955 	 wa: 0.493 	 ua: 0.336 	
+2020-11-05 01:10:44,367 - ./log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-05 01:10:44,368 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-05 01:12:06,728 - ./log/log.txt - INFO - valid    loss: 1.285 	 wa: 0.493 	 ua: 0.333 	
+2020-11-05 01:12:08,794 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-05 01:12:08,794 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-05 01:23:33,024 - ./log/log.txt - INFO - epoch: 0
+2020-11-05 01:23:33,025 - ./log/log.txt - INFO - train    loss: 0.957 	 wa: 0.492 	 ua: 0.333 	
+2020-11-05 01:34:57,460 - ./log/log.txt - INFO - epoch: 1
+2020-11-05 01:34:57,461 - ./log/log.txt - INFO - train    loss: 0.957 	 wa: 0.489 	 ua: 0.333 	
+2020-11-05 01:46:22,122 - ./log/log.txt - INFO - epoch: 2
+2020-11-05 01:46:22,123 - ./log/log.txt - INFO - train    loss: 0.960 	 wa: 0.490 	 ua: 0.333 	
+2020-11-05 01:57:41,689 - ./log/log.txt - INFO - epoch: 3
+2020-11-05 01:57:41,689 - ./log/log.txt - INFO - train    loss: 0.957 	 wa: 0.492 	 ua: 0.335 	
+2020-11-05 02:09:07,676 - ./log/log.txt - INFO - epoch: 4
+2020-11-05 02:09:07,677 - ./log/log.txt - INFO - train    loss: 0.958 	 wa: 0.490 	 ua: 0.333 	
+2020-11-05 02:09:07,677 - ./log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-05 02:09:07,677 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-05 02:10:29,902 - ./log/log.txt - INFO - valid    loss: 1.377 	 wa: 0.490 	 ua: 0.333 	
+2020-11-05 02:10:32,226 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-05 02:10:32,226 - ./log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-05 02:22:02,356 - ./log/log.txt - INFO - epoch: 0
+2020-11-05 02:22:02,356 - ./log/log.txt - INFO - train    loss: 0.956 	 wa: 0.496 	 ua: 0.333 	
+2020-11-05 02:33:33,120 - ./log/log.txt - INFO - epoch: 1
+2020-11-05 02:33:33,121 - ./log/log.txt - INFO - train    loss: 0.954 	 wa: 0.495 	 ua: 0.332 	
+2020-11-05 02:45:04,966 - ./log/log.txt - INFO - epoch: 2
+2020-11-05 02:45:04,966 - ./log/log.txt - INFO - train    loss: 0.956 	 wa: 0.498 	 ua: 0.334 	
+2020-11-05 02:56:35,974 - ./log/log.txt - INFO - epoch: 3
+2020-11-05 02:56:35,974 - ./log/log.txt - INFO - train    loss: 0.954 	 wa: 0.496 	 ua: 0.333 	
+2020-11-05 03:08:00,369 - ./log/log.txt - INFO - epoch: 4
+2020-11-05 03:08:00,370 - ./log/log.txt - INFO - train    loss: 0.954 	 wa: 0.498 	 ua: 0.334 	
+2020-11-05 03:08:00,370 - ./log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-05 03:08:00,370 - ./log/log.txt - INFO - -------------------------------------------------
+2020-11-05 03:09:17,870 - ./log/log.txt - INFO - valid    loss: 1.411 	 wa: 0.479 	 ua: 0.333 	
+2020-11-05 03:09:17,894 - ./log/log.txt - INFO - the best params is: 
+2020-11-05 03:09:17,895 - ./log/log.txt - INFO - learn_rate = 0.00016801566335359662
+2020-11-05 03:09:17,895 - ./log/log.txt - INFO - dropout_rate = 0.5548877477645874
+2020-11-05 03:09:17,895 - ./log/log.txt - INFO - rnn_layers = 5

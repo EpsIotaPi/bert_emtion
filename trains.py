@@ -5,7 +5,7 @@ from ax import optimize
 
 from dataset import *
 from sklearn.metrics import classification_report
-
+from models import *
 
 # 判断是否能使用gpu版本
 if torch.cuda.is_available():
@@ -21,8 +21,12 @@ else:
 
 params = HyperParams()
 
+model = BertWwmModel(params, "", False).to(device)
 
-def trains(model, params, train_loader, optimizer, loss_func):
+def trains(model, newParams, train_loader, optimizer, loss_func):
+    params.learn_rate = newParams["learn_rate"]
+    params.dropout_rate = newParams["dropout_rate"]
+    params.rnn_layers = newParams["rnn_layers"]
     for epoch in range(params.epochs):
         losses, y_trues, y_predicts = [], [], []
         for sample_text, sample_label in tqdm(train_loader):
@@ -60,14 +64,12 @@ def evaluate(model, data_loader):
     wa = weighted_accuracy(y_trues, y_predicts)
     ua = unweighted_accuracy(y_trues, y_predicts)
     logger.info(f"valid    loss: {np.mean(losses):.3f} \t wa: {wa:.3f} \t ua: {ua:.3f} \t")
-    classification_report(y_trues, y_predicts)
+    classification_report(y_trues, y_predicts, zero_division=1)
     model.train()
     return wa
 
 
-def train_evaluate(model):
-    logger.info("-------------------------------------------------")
-
+def make_data():
     # load dataset
     titles, contents, labels = load_dataset(params.data_path)
 
@@ -90,26 +92,35 @@ def train_evaluate(model):
     ]
     optimizer = AdamW(optimizer_grouped_parameters, lr=params.learn_rate, eps=params.adam_epsilon)
 
+    return train_loader, test_loader, loss_function, optimizer
+
+
+def evaluateModel(parameterization):
+    global model
+    train_loader, test_loader, loss_function, optimizer = make_data()
+    logger.info("-------------------------------------------------")
     logger.info(f"begin to train the model: {model.name}")
+    model = trains(model=model, newParams=parameterization, train_loader=train_loader, optimizer=optimizer, loss_func=loss_function)
+    logger.info(f"model({model.name}) is train finish")
+    logger.info("-------------------------------------------------")
+    return evaluate(model, test_loader)
 
-    model = trains(model, params, train_loader, optimizer, loss_function)
-
+def optmizeModel():
     best_parameters, values, experiment, net = optimize(
         parameters=[
             {"name": "learn_rate", "type": "range", "bounds": [8e-6, 1e-3], "log_scale": True},
-            {"name": "dropout_rate", "type": "range", "bounds": [0.0, 0.9]},
+            {"name": "dropout_rate", "type": "range", "bounds": [0.5, 0.9]},
             {"name": "rnn_layers", "type": "range", "bounds": [1, 10]}
         ],
-        evaluation_function=lambda pamaras: evaluate(model, test_loader),
+        evaluation_function=evaluateModel,
         objective_name='accuracy',
         total_trials=15
     )
+    logger.info(f"the best params is: ")
+    logger.info(f"learn_rate = {best_parameters['learn_rate']}")
+    logger.info(f"dropout_rate = {best_parameters['dropout_rate']}")
+    logger.info(f"rnn_layers = {best_parameters['rnn_layers']}")
 
-    print(best_parameters)
-
-    logger.info(f"model({model.name}) is train finish")
-    logger.info("-------------------------------------------------")
-
-    return
-
-
+def changeModel(new_model):
+    global model
+    model = new_model
