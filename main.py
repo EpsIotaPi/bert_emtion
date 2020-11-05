@@ -18,30 +18,3 @@ logger.info("HyperParams is over")
 
 changeModel(new_model=BertWwmModel(params).to(device))
 optmizeModel()
-
-changeModel(new_model=RoBertaModel(params).to(device))
-optmizeModel()
-
-changeModel(new_model=BertWwmModel(params, 'lstm', False).to(device))
-optmizeModel()
-
-changeModel(new_model=RoBertaModel(params, 'lstm', False).to(device))
-optmizeModel()
-#
-# changeModel(new_model=BertWwmModel(params, 'gru', False).to(device))
-# optmizeModel()
-#
-# changeModel(new_model=RoBertaModel(params, 'gru', False).to(device))
-# optmizeModel()
-#
-# changeModel(new_model=BertWwmModel(params, 'lstm', True).to(device))
-# optmizeModel()
-#
-# changeModel(new_model=RoBertaModel(params, 'lstm', True).to(device))
-# optmizeModel()
-#
-# changeModel(new_model=BertWwmModel(params, 'gru', True).to(device))
-# optmizeModel()
-#
-# changeModel(new_model=RoBertaModel(params, 'gru', True).to(device))
-# optmizeModel()
