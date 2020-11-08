@@ -23,10 +23,16 @@ params = HyperParams()
 
 model = BertWwmModel(params, "", False).to(device)
 
-def trains(model, newParams, train_loader, optimizer, loss_func):
-    # params.learn_rate = newParams["learn_rate"]
-    # params.dropout_rate = newParams["dropout_rate"]
-    # params.rnn_layers = newParams["rnn_layers"]
+def trains(model, newParams, train_loader, optimizer, loss_func, isOptimzeHP = False):
+    if isOptimzeHP:
+        params.learn_rate = newParams["learn_rate"]
+        params.dropout_rate = newParams["dropout_rate"]
+        params.rnn_layers = newParams["rnn_layers"]
+        logger.info("change params to:")
+        logger.info(f"learn rate:   {params.learn_rate}")
+        logger.info(f"dropout rate: {params.dropout_rate}")
+        logger.info(f"rnn layers:   {params.rnn_layers}")
+
     for epoch in range(params.epochs):
         losses, y_trues, y_predicts = [], [], []
         for sample_text, sample_label in tqdm(train_loader):
@@ -90,7 +96,8 @@ def make_data():
         {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.0},
         {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
     ]
-    optimizer = AdamW(optimizer_grouped_parameters, lr=params.learn_rate, eps=params.adam_epsilon)
+    # optimizer = AdamW(optimizer_grouped_parameters, lr=params.learn_rate, eps=params.adam_epsilon)
+    optimizer = torch.optim.Adam(optimizer_grouped_parameters, lr=params.learn_rate, betas=(0.9, 0.99), weight_decay=params.weight_decay)
 
     return train_loader, test_loader, loss_function, optimizer
 
@@ -100,10 +107,14 @@ def evaluateModel(parameterization):
     train_loader, test_loader, loss_function, optimizer = make_data()
     logger.info("-------------------------------------------------")
     logger.info(f"begin to train the model: {model.name}")
-    model = trains(model=model, newParams=parameterization, train_loader=train_loader, optimizer=optimizer, loss_func=loss_function)
+    model = trains(model=model, newParams=parameterization, train_loader=train_loader,
+                   optimizer=optimizer, loss_func=loss_function,
+                   isOptimzeHP=params.isOptimzeHP)
     logger.info(f"model({model.name}) is train finish")
     logger.info("-------------------------------------------------")
     return evaluate(model, test_loader)
+
+
 
 def optmizeModel():
     best_parameters, values, experiment, net = optimize(
@@ -116,10 +127,8 @@ def optmizeModel():
         objective_name='accuracy',
         total_trials=5
     )
-    logger.info(f"the best params is: ")
-    logger.info(f"learn_rate = {best_parameters['learn_rate']}")
-    logger.info(f"dropout_rate = {best_parameters['dropout_rate']}")
-    logger.info(f"rnn_layers = {best_parameters['rnn_layers']}")
+
+
 
 def changeModel(new_model):
     global model

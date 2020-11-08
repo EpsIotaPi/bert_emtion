@@ -6,7 +6,7 @@ class HyperParams:
     test_size = 0.2
     batch_size = 5
     vaild_batch_size = 5
-    epochs = 20
+    epochs = 5
     # 类别数
     n_classes = 3
 
@@ -19,9 +19,11 @@ class HyperParams:
     patience = 10
     decay_rate = 0.90
     grad_clip = 3
-    learn_rate = 3.210948290882333e-05
+    learn_rate = 1e-5
     min_learn_rate = 8e-6
-    dropout_rate = 0.343454384803772
+    dropout_rate = 0.2
+
+    isOptimzeHP = True
     '''-------------------调参-------------------'''
 
     bert_path = "./models/chinese_wwm_pytorch"

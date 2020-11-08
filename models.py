@@ -23,6 +23,8 @@ class HanAttention(nn.Module):
 
 
 
+# + cls 看下效果 VS attention
+# + 加上BiGRU、BiLSTM、CNN  VS  max(cls , attention)
 
 class BertWwmModel(nn.Module):
     name = 'BertWwmModel_'
@@ -79,9 +81,6 @@ class BertWwmModel(nn.Module):
         prob = self.fc(text_attention)
         return prob
 
-
-# + cls 看下效果 VS attention
-# + 加上BiGRU、BiLSTM、CNN  VS  max(cls , attention)
 
 
 class RoBertaModel(nn.Module):
