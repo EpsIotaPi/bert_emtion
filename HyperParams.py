@@ -6,7 +6,7 @@ class HyperParams:
     test_size = 0.2
     batch_size = 5
     vaild_batch_size = 5
-    epochs = 5
+    epochs = 20
     # 类别数
     n_classes = 3
 
