@@ -18,6 +18,7 @@ class HyperParams:
     adam_epsilon = 1e-6
     patience = 10
     decay_rate = 0.90
+    weight_decay = 1e-4
     grad_clip = 3
     learn_rate = 1e-5
     min_learn_rate = 8e-6

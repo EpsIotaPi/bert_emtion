@@ -23,7 +23,7 @@ params = HyperParams()
 
 model = BertWwmModel(params, "", False).to(device)
 
-def trains(model, newParams, train_loader, optimizer, loss_func, isOptimzeHP = False):
+def trains(model, newParams, train_loader, optimizer, loss_func, isOptimzeHP):
     if isOptimzeHP:
         params.learn_rate = newParams["learn_rate"]
         params.dropout_rate = newParams["dropout_rate"]
