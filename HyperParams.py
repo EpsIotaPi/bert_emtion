@@ -13,7 +13,7 @@ class HyperParams:
     # 维度，与bert保持一致
     embed_dim = 768
     hidden_size = 768
-    rnn_layers = 1
+    rnn_layers = 5
     '''-------------------调参-------------------'''
     adam_epsilon = 1e-6
     patience = 10

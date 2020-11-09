@@ -96,8 +96,8 @@ def make_data():
         {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.0},
         {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
     ]
-    # optimizer = AdamW(optimizer_grouped_parameters, lr=params.learn_rate, eps=params.adam_epsilon)
-    optimizer = torch.optim.Adam(optimizer_grouped_parameters, lr=params.learn_rate, betas=(0.9, 0.99), weight_decay=params.weight_decay)
+    optimizer = AdamW(optimizer_grouped_parameters, lr=params.learn_rate, eps=params.adam_epsilon)
+    # optimizer = torch.optim.Adam(optimizer_grouped_parameters, lr=params.learn_rate, betas=(0.9, 0.99), weight_decay=params.weight_decay)
 
     return train_loader, test_loader, loss_function, optimizer
 
