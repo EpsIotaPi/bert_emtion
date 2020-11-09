@@ -1,0 +1,101 @@
+2020-11-09 09:14:49,489 - log/log.txt - INFO - the flowing is HyperParams:
+2020-11-09 09:14:49,489 - log/log.txt - INFO - epoch: 5
+2020-11-09 09:14:49,489 - log/log.txt - INFO - batch: 5
+2020-11-09 09:14:49,489 - log/log.txt - INFO - rnn_layers: 5
+2020-11-09 09:14:49,490 - log/log.txt - INFO - drop_rate: 0.2
+2020-11-09 09:14:49,490 - log/log.txt - INFO - HyperParams is over
+2020-11-09 09:14:53,126 - log/log.txt - INFO - -------------------------------------------------
+2020-11-09 09:14:53,126 - log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-09 09:14:53,126 - log/log.txt - INFO - change params to:
+2020-11-09 09:14:53,126 - log/log.txt - INFO - learn rate:   2.8811202286509005e-05
+2020-11-09 09:14:53,126 - log/log.txt - INFO - dropout rate: 0.2923784852027893
+2020-11-09 09:14:53,126 - log/log.txt - INFO - rnn layers:   3
+2020-11-09 09:25:41,501 - log/log.txt - INFO - epoch: 0
+2020-11-09 09:25:41,501 - log/log.txt - INFO - train    loss: 0.449 	 wa: 0.818 	 ua: 0.713 	
+2020-11-09 09:36:31,122 - log/log.txt - INFO - epoch: 1
+2020-11-09 09:36:31,122 - log/log.txt - INFO - train    loss: 0.260 	 wa: 0.898 	 ua: 0.835 	
+2020-11-09 09:47:20,044 - log/log.txt - INFO - epoch: 2
+2020-11-09 09:47:20,044 - log/log.txt - INFO - train    loss: 0.150 	 wa: 0.944 	 ua: 0.908 	
+2020-11-09 09:58:07,953 - log/log.txt - INFO - epoch: 3
+2020-11-09 09:58:07,953 - log/log.txt - INFO - train    loss: 0.086 	 wa: 0.973 	 ua: 0.957 	
+2020-11-09 10:08:53,570 - log/log.txt - INFO - epoch: 4
+2020-11-09 10:08:53,570 - log/log.txt - INFO - train    loss: 0.063 	 wa: 0.979 	 ua: 0.971 	
+2020-11-09 10:08:53,571 - log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-09 10:08:53,571 - log/log.txt - INFO - -------------------------------------------------
+2020-11-09 10:10:11,193 - log/log.txt - INFO - valid    loss: 0.769 	 wa: 0.824 	 ua: 0.736 	
+2020-11-09 10:10:12,428 - log/log.txt - INFO - -------------------------------------------------
+2020-11-09 10:10:12,428 - log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-09 10:10:12,428 - log/log.txt - INFO - change params to:
+2020-11-09 10:10:12,428 - log/log.txt - INFO - learn rate:   1.0201363232858401e-05
+2020-11-09 10:10:12,428 - log/log.txt - INFO - dropout rate: 0.2708088040351868
+2020-11-09 10:10:12,428 - log/log.txt - INFO - rnn layers:   3
+2020-11-09 10:21:28,808 - log/log.txt - INFO - epoch: 0
+2020-11-09 10:21:28,808 - log/log.txt - INFO - train    loss: 0.247 	 wa: 0.909 	 ua: 0.862 	
+2020-11-09 10:32:40,027 - log/log.txt - INFO - epoch: 1
+2020-11-09 10:32:40,027 - log/log.txt - INFO - train    loss: 0.195 	 wa: 0.931 	 ua: 0.897 	
+2020-11-09 10:43:56,917 - log/log.txt - INFO - epoch: 2
+2020-11-09 10:43:56,917 - log/log.txt - INFO - train    loss: 0.160 	 wa: 0.944 	 ua: 0.919 	
+2020-11-09 10:55:12,528 - log/log.txt - INFO - epoch: 3
+2020-11-09 10:55:12,528 - log/log.txt - INFO - train    loss: 0.136 	 wa: 0.952 	 ua: 0.931 	
+2020-11-09 11:06:23,118 - log/log.txt - INFO - epoch: 4
+2020-11-09 11:06:23,119 - log/log.txt - INFO - train    loss: 0.112 	 wa: 0.961 	 ua: 0.946 	
+2020-11-09 11:06:23,119 - log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-09 11:06:23,119 - log/log.txt - INFO - -------------------------------------------------
+2020-11-09 11:07:43,431 - log/log.txt - INFO - valid    loss: 0.479 	 wa: 0.853 	 ua: 0.821 	
+2020-11-09 11:07:44,732 - log/log.txt - INFO - -------------------------------------------------
+2020-11-09 11:07:44,732 - log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-09 11:07:44,732 - log/log.txt - INFO - change params to:
+2020-11-09 11:07:44,732 - log/log.txt - INFO - learn rate:   1.6078644602520992e-05
+2020-11-09 11:07:44,732 - log/log.txt - INFO - dropout rate: 0.3404029369354248
+2020-11-09 11:07:44,732 - log/log.txt - INFO - rnn layers:   1
+2020-11-09 11:18:54,999 - log/log.txt - INFO - epoch: 0
+2020-11-09 11:18:54,999 - log/log.txt - INFO - train    loss: 0.118 	 wa: 0.963 	 ua: 0.942 	
+2020-11-09 11:30:12,817 - log/log.txt - INFO - epoch: 1
+2020-11-09 11:30:12,818 - log/log.txt - INFO - train    loss: 0.050 	 wa: 0.985 	 ua: 0.978 	
+2020-11-09 11:41:29,845 - log/log.txt - INFO - epoch: 2
+2020-11-09 11:41:29,845 - log/log.txt - INFO - train    loss: 0.038 	 wa: 0.988 	 ua: 0.984 	
+2020-11-09 11:52:50,130 - log/log.txt - INFO - epoch: 3
+2020-11-09 11:52:50,130 - log/log.txt - INFO - train    loss: 0.029 	 wa: 0.991 	 ua: 0.987 	
+2020-11-09 12:04:08,403 - log/log.txt - INFO - epoch: 4
+2020-11-09 12:04:08,404 - log/log.txt - INFO - train    loss: 0.027 	 wa: 0.991 	 ua: 0.985 	
+2020-11-09 12:04:08,404 - log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-09 12:04:08,404 - log/log.txt - INFO - -------------------------------------------------
+2020-11-09 12:05:28,092 - log/log.txt - INFO - valid    loss: 0.183 	 wa: 0.960 	 ua: 0.935 	
+2020-11-09 12:05:29,418 - log/log.txt - INFO - -------------------------------------------------
+2020-11-09 12:05:29,418 - log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-09 12:05:29,418 - log/log.txt - INFO - change params to:
+2020-11-09 12:05:29,418 - log/log.txt - INFO - learn rate:   1.0301109850093418e-05
+2020-11-09 12:05:29,418 - log/log.txt - INFO - dropout rate: 0.11842889338731766
+2020-11-09 12:05:29,418 - log/log.txt - INFO - rnn layers:   1
+2020-11-09 12:16:47,517 - log/log.txt - INFO - epoch: 0
+2020-11-09 12:16:47,518 - log/log.txt - INFO - train    loss: 0.063 	 wa: 0.981 	 ua: 0.972 	
+2020-11-09 12:28:05,140 - log/log.txt - INFO - epoch: 1
+2020-11-09 12:28:05,141 - log/log.txt - INFO - train    loss: 0.042 	 wa: 0.986 	 ua: 0.981 	
+2020-11-09 12:39:22,377 - log/log.txt - INFO - epoch: 2
+2020-11-09 12:39:22,378 - log/log.txt - INFO - train    loss: 0.037 	 wa: 0.988 	 ua: 0.983 	
+2020-11-09 12:50:39,572 - log/log.txt - INFO - epoch: 3
+2020-11-09 12:50:39,572 - log/log.txt - INFO - train    loss: 0.037 	 wa: 0.986 	 ua: 0.979 	
+2020-11-09 13:01:56,353 - log/log.txt - INFO - epoch: 4
+2020-11-09 13:01:56,354 - log/log.txt - INFO - train    loss: 0.038 	 wa: 0.987 	 ua: 0.983 	
+2020-11-09 13:01:56,354 - log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-09 13:01:56,354 - log/log.txt - INFO - -------------------------------------------------
+2020-11-09 13:03:16,161 - log/log.txt - INFO - valid    loss: 0.094 	 wa: 0.970 	 ua: 0.973 	
+2020-11-09 13:03:17,439 - log/log.txt - INFO - -------------------------------------------------
+2020-11-09 13:03:17,439 - log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-09 13:03:17,439 - log/log.txt - INFO - change params to:
+2020-11-09 13:03:17,439 - log/log.txt - INFO - learn rate:   1.8987619184847403e-05
+2020-11-09 13:03:17,439 - log/log.txt - INFO - dropout rate: 0.2670783758163452
+2020-11-09 13:03:17,439 - log/log.txt - INFO - rnn layers:   2
+2020-11-09 13:14:37,997 - log/log.txt - INFO - epoch: 0
+2020-11-09 13:14:37,997 - log/log.txt - INFO - train    loss: 0.041 	 wa: 0.987 	 ua: 0.982 	
+2020-11-09 13:25:52,748 - log/log.txt - INFO - epoch: 1
+2020-11-09 13:25:52,748 - log/log.txt - INFO - train    loss: 0.026 	 wa: 0.991 	 ua: 0.987 	
+2020-11-09 13:37:11,955 - log/log.txt - INFO - epoch: 2
+2020-11-09 13:37:11,956 - log/log.txt - INFO - train    loss: 0.025 	 wa: 0.991 	 ua: 0.987 	
+2020-11-09 13:48:32,429 - log/log.txt - INFO - epoch: 3
+2020-11-09 13:48:32,429 - log/log.txt - INFO - train    loss: 0.020 	 wa: 0.992 	 ua: 0.987 	
+2020-11-09 13:59:54,093 - log/log.txt - INFO - epoch: 4
+2020-11-09 13:59:54,093 - log/log.txt - INFO - train    loss: 0.017 	 wa: 0.994 	 ua: 0.992 	
+2020-11-09 13:59:54,094 - log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-09 13:59:54,094 - log/log.txt - INFO - -------------------------------------------------
+2020-11-09 14:01:10,959 - log/log.txt - INFO - valid    loss: 0.051 	 wa: 0.988 	 ua: 0.982 	
