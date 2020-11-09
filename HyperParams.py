@@ -6,25 +6,25 @@ class HyperParams:
     test_size = 0.2
     batch_size = 5
     vaild_batch_size = 5
-    epochs = 5
+    epochs = 10
     # 类别数
     n_classes = 3
 
     # 维度，与bert保持一致
     embed_dim = 768
     hidden_size = 768
-    rnn_layers = 5
+    rnn_layers = 2
     '''-------------------调参-------------------'''
     adam_epsilon = 1e-6
     patience = 10
     decay_rate = 0.90
     weight_decay = 1e-4
     grad_clip = 3
-    learn_rate = 1e-5
+    learn_rate = 1.8987619184847403e-05
     min_learn_rate = 8e-6
-    dropout_rate = 0.2
+    dropout_rate = 0.2670783758163452
 
-    isOptimzeHP = True
+    isOptimzeHP = False
     '''-------------------调参-------------------'''
 
     bert_path = "./models/chinese_wwm_pytorch"
