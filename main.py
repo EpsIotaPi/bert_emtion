@@ -16,5 +16,5 @@ logger.info("HyperParams is over")
 
 
 changeModel(new_model=BertWwmModel(params).to(device))
-evaluateModel(params)
-# optmizeModel()
+# evaluateModel(params)
+optmizeModel()

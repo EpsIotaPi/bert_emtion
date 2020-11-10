@@ -57,16 +57,16 @@ def trains(model, newParams, train_loader, optimizer, loss_func, isOptimzeHP):
 def evaluate(model, data_loader):
     model.eval()
     losses, y_trues, y_predicts = [], [], []
-    for sample_text, sample_label in tqdm(data_loader):
-        sample_sentence = {k: v.squeeze(1).long().to(device) for k, v in sample_text.items()}
-        sample_label = sample_label.long().to(device)
-        prob = model(sample_sentence)
-        loss_function = nn.CrossEntropyLoss()
-        loss = loss_function(prob, sample_label.view(-1))
-        losses.append(loss.item())
-        y_trues += sample_label.cpu().view(-1).numpy().tolist()
-        y_predicts += prob.cpu().argmax(1).numpy().tolist()
-
+    with torch.no_grad:
+        for sample_text, sample_label in tqdm(data_loader):
+            sample_sentence = {k: v.squeeze(1).long().to(device) for k, v in sample_text.items()}
+            sample_label = sample_label.long().to(device)
+            prob = model(sample_sentence)
+            loss_function = nn.CrossEntropyLoss()
+            loss = loss_function(prob, sample_label.view(-1))
+            losses.append(loss.item())
+            y_trues += sample_label.cpu().view(-1).numpy().tolist()
+            y_predicts += prob.cpu().argmax(1).numpy().tolist()
     wa = weighted_accuracy(y_trues, y_predicts)
     ua = unweighted_accuracy(y_trues, y_predicts)
     logger.info(f"valid    loss: {np.mean(losses):.3f} \t wa: {wa:.3f} \t ua: {ua:.3f} \t")
@@ -127,6 +127,11 @@ def optmizeModel():
         objective_name='accuracy',
         total_trials=5
     )
+    logger.info(f"best_params = {best_parameters}")
+    logger.info(f"value = {values}")
+    logger.info(f"model = {net}")
+    logger.info("-------------------------------------------------")
+
 
 
 
