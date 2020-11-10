@@ -1,0 +1,31 @@
+2020-11-09 16:10:46,293 - log/log.txt - INFO - the flowing is HyperParams:
+2020-11-09 16:10:46,293 - log/log.txt - INFO - epoch: 10
+2020-11-09 16:10:46,293 - log/log.txt - INFO - batch: 5
+2020-11-09 16:10:46,293 - log/log.txt - INFO - rnn_layers: 2
+2020-11-09 16:10:46,294 - log/log.txt - INFO - drop_rate: 0.2670783758163452
+2020-11-09 16:10:46,294 - log/log.txt - INFO - HyperParams is over
+2020-11-09 16:10:49,585 - log/log.txt - INFO - -------------------------------------------------
+2020-11-09 16:10:49,586 - log/log.txt - INFO - begin to train the model: BertWwmModel_
+2020-11-09 16:21:38,794 - log/log.txt - INFO - epoch: 0
+2020-11-09 16:21:38,794 - log/log.txt - INFO - train    loss: 0.463 	 wa: 0.807 	 ua: 0.696 	
+2020-11-09 16:32:28,739 - log/log.txt - INFO - epoch: 1
+2020-11-09 16:32:28,740 - log/log.txt - INFO - train    loss: 0.285 	 wa: 0.886 	 ua: 0.817 	
+2020-11-09 16:43:16,642 - log/log.txt - INFO - epoch: 2
+2020-11-09 16:43:16,643 - log/log.txt - INFO - train    loss: 0.168 	 wa: 0.939 	 ua: 0.900 	
+2020-11-09 16:54:07,624 - log/log.txt - INFO - epoch: 3
+2020-11-09 16:54:07,625 - log/log.txt - INFO - train    loss: 0.111 	 wa: 0.959 	 ua: 0.935 	
+2020-11-09 17:04:55,511 - log/log.txt - INFO - epoch: 4
+2020-11-09 17:04:55,512 - log/log.txt - INFO - train    loss: 0.084 	 wa: 0.972 	 ua: 0.956 	
+2020-11-09 17:15:43,681 - log/log.txt - INFO - epoch: 5
+2020-11-09 17:15:43,682 - log/log.txt - INFO - train    loss: 0.072 	 wa: 0.975 	 ua: 0.963 	
+2020-11-09 17:26:29,134 - log/log.txt - INFO - epoch: 6
+2020-11-09 17:26:29,135 - log/log.txt - INFO - train    loss: 0.055 	 wa: 0.982 	 ua: 0.973 	
+2020-11-09 17:37:17,862 - log/log.txt - INFO - epoch: 7
+2020-11-09 17:37:17,862 - log/log.txt - INFO - train    loss: 0.049 	 wa: 0.984 	 ua: 0.977 	
+2020-11-09 17:48:06,005 - log/log.txt - INFO - epoch: 8
+2020-11-09 17:48:06,006 - log/log.txt - INFO - train    loss: 0.049 	 wa: 0.984 	 ua: 0.978 	
+2020-11-09 17:58:54,189 - log/log.txt - INFO - epoch: 9
+2020-11-09 17:58:54,189 - log/log.txt - INFO - train    loss: 0.046 	 wa: 0.985 	 ua: 0.979 	
+2020-11-09 17:58:54,190 - log/log.txt - INFO - model(BertWwmModel_) is train finish
+2020-11-09 17:58:54,190 - log/log.txt - INFO - -------------------------------------------------
+2020-11-09 18:00:13,064 - log/log.txt - INFO - valid    loss: 0.891 	 wa: 0.831 	 ua: 0.744 	
