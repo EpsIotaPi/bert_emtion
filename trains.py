@@ -57,7 +57,7 @@ def trains(model, newParams, train_loader, optimizer, loss_func, isOptimzeHP):
 def evaluate(model, data_loader):
     model.eval()
     losses, y_trues, y_predicts = [], [], []
-    with torch.no_grad:
+    with torch.no_grad():
         for sample_text, sample_label in tqdm(data_loader):
             sample_sentence = {k: v.squeeze(1).long().to(device) for k, v in sample_text.items()}
             sample_label = sample_label.long().to(device)

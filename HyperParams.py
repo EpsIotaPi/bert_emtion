@@ -13,16 +13,16 @@ class HyperParams:
     # 维度，与bert保持一致
     embed_dim = 768
     hidden_size = 768
-    rnn_layers = 2
+    rnn_layers = 1
     '''-------------------调参-------------------'''
     adam_epsilon = 1e-6
     patience = 10
     decay_rate = 0.90
     weight_decay = 1e-4
     grad_clip = 3
-    learn_rate = 1.8987619184847403e-05
+    learn_rate = 1e-5
     min_learn_rate = 8e-6
-    dropout_rate = 0.2670783758163452
+    dropout_rate = 0.2
 
     isOptimzeHP = True
     '''-------------------调参-------------------'''
