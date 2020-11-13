@@ -24,7 +24,7 @@ class HyperParams:
     min_learn_rate = 8e-6
     dropout_rate = 0.2
 
-    isOptimzeHP = True
+    isOptimzeHP = False
     '''-------------------调参-------------------'''
 
     bert_path = "./models/chinese_wwm_pytorch"
